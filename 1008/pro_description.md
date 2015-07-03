@@ -3,6 +3,7 @@
 
 
 Time Limit: 1000MS		Memory Limit: 10000K
+
 Total Submissions: 70234		Accepted: 21610
 
 ###Description
@@ -20,11 +21,13 @@ Years (both Haab and Tzolkin) were denoted by numbers 0, 1, : : : , where the nu
 Haab: 0. pop 0 
 
 Tzolkin: 1 imix 0 
+
 Help professor M. A. Ya and write a program for him to convert the dates from the Haab calendar to the Tzolkin calendar. 
 
 ###Input
 
 The date in Haab is given in the following format: 
+
 NumberOfTheDay. Month Year 
 
 The first line of the input file contains the number of the input dates in the file. The next n lines contain n dates in the Haab calendar format, each in separate line. The year is smaller then 5000. 
@@ -32,6 +35,7 @@ The first line of the input file contains the number of the input dates in the f
 ###Output
 
 The date in Tzolkin should be in the following format: 
+
 Number NameOfTheDay Year 
 
 The first line of the output file contains the number of the output dates. In the next n lines, there are dates in the Tzolkin calendar format, in the order corresponding to the input dates. 
@@ -40,15 +44,21 @@ The first line of the output file contains the number of the output dates. In th
 ###Sample Input
 
 3
+
 10. zac 0
+
 0. pop 0
+
 10. zac 1995
 
 
 ###Sample Output
 
 3
+
 3 chuen 0
+
 1 imix 0
+
 9 cimi 2801
 
