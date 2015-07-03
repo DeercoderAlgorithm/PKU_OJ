@@ -1,5 +1,4 @@
 ##Maya Calendar
-====
 
 
 Time Limit: 1000MS		Memory Limit: 10000K
@@ -43,6 +42,7 @@ The first line of the output file contains the number of the output dates. In th
 
 ###Sample Input
 
+```
 3
 
 10. zac 0
@@ -50,10 +50,11 @@ The first line of the output file contains the number of the output dates. In th
 0. pop 0
 
 10. zac 1995
-
+```
 
 ###Sample Output
 
+```
 3
 
 3 chuen 0
@@ -61,4 +62,4 @@ The first line of the output file contains the number of the output dates. In th
 1 imix 0
 
 9 cimi 2801
-
+```
